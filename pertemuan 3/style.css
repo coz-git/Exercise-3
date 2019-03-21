@@ -1,0 +1,33 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+  .background {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+	z-index: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	align-items: center;
+	overflow-y: hidden;
+}
+
+.container {
+    position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	padding: 1em 3em;
+	max-width: 680px;
+	overflow: auto;
+	background-color: rgba(255, 255, 255, .5);
+}
